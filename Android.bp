@@ -56,17 +56,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.qti.gpudrivers.sm6150.api30",
-	owner: "realme",
-	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "PowerOffAlarm",
 	owner: "realme",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
